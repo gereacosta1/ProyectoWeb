@@ -1,0 +1,22 @@
+:root{
+    --primary-color: #5EB9F0;
+    --paragraph-color:#60697B;
+    --heading-color:#343F52;
+    --skyblu: #e5f4fd;
+    --white:#fff;
+}
+
+body{
+    font-family: "urbanist",sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background-color: chartreuse;
+}
