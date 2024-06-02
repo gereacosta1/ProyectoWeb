@@ -46,15 +46,21 @@ h3{
     line-height: 32px;
 }
 
-main{
-    max-width: 1280px;
-    margin: 50px;
-}
+/* main{
+    /* max-width: 1280px;
+    margin: 0 auto; */
+/* } 
+*/ 
 
 nav{
     display: flex;
     justify-content: space-between;
     padding: 30px 0px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
 }
 
 p{
@@ -85,6 +91,11 @@ ul{
     text-decoration: none;
 }
 
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 
 .hero{
     display: flex;
@@ -103,6 +114,12 @@ ul{
         margin-bottom: 30px;
     }
 
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 /* service-styles */
@@ -144,6 +161,15 @@ ul{
         max-width: 316px;
         margin: 0 auto 20px;
     }
+}
+
+
+/* strategystyles */
+.strategy-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: center;
 }
 
 /* Testimonials-styles */
